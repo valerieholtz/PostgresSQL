@@ -1,7 +1,7 @@
 
 ## Goal: 
 
-Create a PostgreSQL database and migrate it to Amazon RDS. Use Python/SQLAlchemy to insert data and query the database.
+Create a PostgreSQL database and migrate it to Amazon Relational Database Service (RDS). Use Python/SQLAlchemy to insert data and query the database.
 
 ![image](https://user-images.githubusercontent.com/79086000/136655767-a86f51fd-9ec8-4616-a3d3-77d8aea6842d.png)
 
