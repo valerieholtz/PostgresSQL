@@ -9,7 +9,7 @@ Create a PostgreSQL database and migrate it to Amazon Relational Database Servic
 This project should be seen as an example guide to set up a PostgresSQL on a local machine, create a database and load in data. Further to connect with the Database through SQLAlchemy via Python and be able to work with the data as a DataFrame. 
 
 ## Instructions:
-- Get data from https://github.com/pawlodkowski/northwind_data_clean
+- Get data from https://github.com/pawlodkowski/northwind_data_clean 
 — Install postgres on local machine
 - Connect to postgres via psql -h <host> -U <port> 
 - create database with CREATE DATABASE northwind;
