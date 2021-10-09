@@ -3,7 +3,8 @@
 
 Create a PostgreSQL database and migrate it to Amazon Relational Database Service (RDS). Use Python/SQLAlchemy to insert data and query the database.
 
-![image](https://user-images.githubusercontent.com/79086000/136655767-a86f51fd-9ec8-4616-a3d3-77d8aea6842d.png)
+![Bildschirmfoto 2021-10-04 um 12 35 38](https://user-images.githubusercontent.com/79086000/136656952-267487cf-0be5-4ace-989d-098239a66e65.png)
+
 
 ## Part 1:
 This project should be seen as an example guide to set up a PostgresSQL on a local machine, create a database and load in data. Further to connect with the Database through SQLAlchemy via Python and be able to work with the data as a DataFrame. 
