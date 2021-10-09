@@ -10,6 +10,7 @@ This project should be seen as an example guide to set up a PostgresSQL on a loc
 
 ## Instructions:
 - Get data from https://github.com/pawlodkowski/northwind_data_clean 
+
 — Install postgres on local machine
 - Connect to postgres via psql -h <host> -U <port> 
 - create database with CREATE DATABASE northwind;
