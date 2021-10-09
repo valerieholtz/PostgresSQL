@@ -10,8 +10,8 @@ This project should be seen as an example guide to set up a PostgresSQL on a loc
 
 ## Instructions:
 - Get data from https://github.com/pawlodkowski/northwind_data_clean 
-— Install postgres on local machine
-- Connect to postgres via psql -h <host> -U <port> 
+- Install postgres on local machine
+- Connect to postgres
 - create database with CREATE DATABASE northwind;
 - connect to a database with \c northwind
 - Import northwind data by running \i create_database.sql over command line
@@ -22,7 +22,7 @@ This project should be seen as an example guide to set up a PostgresSQL on a loc
 Repeat this process on the Cloud Computer AWS RDS. A pg_dump file is created that can be used to migrate the local database to the cloud databse. Further connect with the Database through SQLAlchemy via Python.
 
 ## Instructions:
-- Create an AWS account and create a PostgreSQL DB instance on RDS
+- Create an AWS account with a PostgreSQL DB instance on RDS
 - create a pg_dump file from local northward database via pg_dump -U postgres northwind > pg_dump.sql
 - conncect to your AWS RDS via psql -h <remote-host> -U <user> and create a remote northward database
 - run psql -f pg_dump.sql -h <remote-host> -U postgres -p 5432 -d <db-name> to migrate the data to the remote database
