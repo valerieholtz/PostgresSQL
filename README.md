@@ -33,16 +33,10 @@ Repeat this process on the Cloud Computer AWS RDS. A pg_dump file is created tha
 
 ## Keywords:
 
-PostgresSQL
-
-SQL
-
-AWS
-
-RDS
-
-Python
-
-SQLAlchemy
-
-Cloud Computing
+- PostgresSQL
+- SQL
+- AWS
+- RDS
+- Python
+- SQLAlchemy
+- Cloud Computing
